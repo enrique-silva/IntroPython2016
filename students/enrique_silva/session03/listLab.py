@@ -40,6 +40,24 @@ for name in fruits:
 		fruits_with_p.append(name)
 
 print(fruits_with_p)
+print()
+
+print(fruits)
+print()
+
+fruits.pop()
+
+print(fruits)
+print()
+
+delete_fruit=input('What fruit would you like to delete? ')
+
+if delete_fruit in fruits:
+	fruits.remove(delete_fruit)
+	print(fruits)
+else:
+	print('Fruit does not exist')
+
 
 
 
