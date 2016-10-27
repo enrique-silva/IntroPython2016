@@ -42,6 +42,7 @@ for name in fruits:
 print(fruits_with_p)
 print()
 
+#display the list and Remove the last fruit from the list.
 print(fruits)
 print()
 
@@ -49,6 +50,8 @@ fruits.pop()
 
 print(fruits)
 print()
+
+#Ask the user for a fruit to delete and find it and delete it.
 
 delete_fruit=input('What fruit would you like to delete? ')
 
