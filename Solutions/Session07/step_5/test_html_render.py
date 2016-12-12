@@ -1,8 +1,9 @@
 """
 test code for html_render.py
 
-includes step 4
+includes up to step 5
 """
+
 import io
 
 from html_render import (Element,
@@ -319,7 +320,6 @@ def test_br_in_p():
     file_contents = render_result(p).split('\n')
     print(file_contents)
     assert file_contents[2].strip() == "<br />"
-
 
 def test_hr():
     hr = Hr(width=400)
